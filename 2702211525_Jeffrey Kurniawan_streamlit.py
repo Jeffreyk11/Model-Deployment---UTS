@@ -20,7 +20,7 @@ def main():
     person_age = st.number_input('Age', 18, 100)
     person_gender = st.selectbox('Gender', ['Male', 'Female'])
     person_education = st.selectbox('Education Level', ['High School', 'Associate', 'Bachelor', 'Master', 'Doctorate'])
-    person_income = st.number_input('Monthly Income', 0,10000000000000)
+    person_income = st.number_input('Yearly Income', 0,10000000000000)
     person_emp_exp = st.number_input('Employment Experience (years)', 0, 100)
     person_home_ownership = st.selectbox('Home Ownership', ['OTHER', 'RENT', 'MORTGAGE', 'OWN'])
     loan_amnt = st.number_input('Loan Amount', 0,500000)
