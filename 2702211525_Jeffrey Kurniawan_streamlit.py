@@ -15,7 +15,7 @@ ohe_encode = joblib.load('ohe_encoder_loan_intent.pkl')
 
 def main():
     st.title('📊 Loan Status Prediction App')
-    st.write("Masukkan data nasabah untuk memprediksi status pinjaman:")
+    st.write("Enter customer data to predict loan status:")
 
     person_age = st.number_input('Age', 18, 100)
     person_gender = st.selectbox('Gender', ['Male', 'Female'])
